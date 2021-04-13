@@ -5,7 +5,7 @@ export interface ISettingsObject extends IGlobalSettingsObject {
 
     ambientOcclusion: ISetting<boolean>,
     autoRotateSpeed: ISetting<number>,
-    backgroundColor?: ISetting<string>,
+    backgroundColor: ISetting<string>,
     bumpAmplitude: ISetting<number>,
     camera: ISetting<{ position: ISetting<any>, target: ISetting<any> }>,
     cameraAutoAdjust: ISetting<boolean>,
